@@ -26,7 +26,7 @@
     box-shadow: 0 2px 30px #4747470b;
     backdrop-filter: blur(7.1px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    @apply border-l-4 border-gray-100 shrink-0 h-3/4 w-[80%] md:w-[40%] py-20 px-7 min-w-max;
+    @apply border-l-4 rounded-r-lg md:rounded-r-none border-gray-100 shrink-0 h-3/4 w-[80%] md:w-[40%] py-20 px-7 min-w-max;
 }
 
 .ocean{
