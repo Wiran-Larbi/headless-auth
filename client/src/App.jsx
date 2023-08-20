@@ -32,6 +32,10 @@ const router = createBrowserRouter([
     element: <Recovery></Recovery>
   },
   {
+    path: '/reset',
+    element: <Reset></Reset>
+  },
+  {
     path: '*',
     element: <PageNotFound></PageNotFound>
   }
